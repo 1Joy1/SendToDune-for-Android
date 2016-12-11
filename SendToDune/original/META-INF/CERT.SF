@@ -1,0 +1,37 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: yW/JWRjjyU493tfwCY5bA2kuFOg=
+Created-By: 1.0 (Android SignApk)
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: jRkSe4jZFVe1TSMlF/yG3iansbo=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 1ktusQQidgRv0a/BWf3YIBiMwKs=
+
+Name: res/drawable-hdpi-v4/cell_shape.xml
+SHA1-Digest: tRRFw4Yj+9eBF1pHh0V/z6GLxbY=
+
+Name: res/menu-v11/main.xml
+SHA1-Digest: kGJDG4UuiMbBk6Dkp5hNF1GhBPY=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: ncf7lWSLB5z+vKUXz274ROwPws4=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: qRbtCaEs9Bo0OqhiVUEXw5Fqc0E=
+
+Name: resources.arsc
+SHA1-Digest: aMiMoqrOGkDwonhqHFyBsBfGRuY=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: HFIl4j09gT/+ZZm7E7R0ECHE970=
+
+Name: classes.dex
+SHA1-Digest: yTXu1Bqx2TPtvfLY4naTNYqq9co=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: 0+rRUTf5oBEdR0/E/3dFvbN99po=
+
+Name: res/menu/main.xml
+SHA1-Digest: lwqNvGa0h8Iydm/az7dHmgZ5o+s=
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tableLayout1">false</item>
+    <item type="id" name="EditTextUrl">false</item>
+    <item type="id" name="button1">false</item>
+    <item type="id" name="spinner">false</item>
+    <item type="id" name="checkBox_playlink_stop">false</item>
+    <item type="id" name="EditTextIP">false</item>
+    <item type="id" name="buttonSave">false</item>
+    <item type="id" name="action_settings">false</item>
+</resources>

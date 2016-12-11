@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Playlink</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="quality">Качество</string>
+    <string name="ip_address">IP-адрес</string>
+    <string name="playlink_stop">Остановить текущее видео</string>
+    <string name="play">Воспроизвести</string>
+    <string name="save">Сохранить</string>
+    <string name="network_error">: Ошибка связи с плеером !!!</string>
+    <string name="save_settings">Настройки сохранены !!!</string>
+</resources>
