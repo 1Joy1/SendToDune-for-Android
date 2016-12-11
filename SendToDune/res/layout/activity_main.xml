@@ -3,33 +3,33 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <TableLayout android:id="@id/tableLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*">
         <TableRow>
-            <EditText android:textSize="20.0dip" android:id="@id/EditTextUrl" android:background="@drawable/cell_shape" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0px" android:layout_span="5" />
+            <EditText android:textSize="20.0dip" android:id="@id/EditTextUrl" android:background="@drawable/cell_shape" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0px" android:layout_span="7" />
         </TableRow>
         <TableRow>
-            <Button android:layout_gravity="right" android:id="@id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="5" android:text="@string/play" />
+            <Button android:layout_gravity="right" android:id="@id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="7" android:text="@string/play" />
         </TableRow>
         <View android:background="#ff909090" android:layout_height="2.0dip" />
         <TableRow android:gravity="bottom">
             <TextView android:textSize="16.0dip" android:layout_gravity="bottom" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-3.0sp" android:layout_span="2" android:text="@string/quality" />
-            <TextView android:textSize="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="3" />
+            <TextView android:textSize="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="5" />
         </TableRow>
         <TableRow>
-            <Spinner android:entries="@array/animals" android:layout_gravity="top" android:id="@id/spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0sp" android:layout_span="2" />
-            <TextView android:textSize="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="3" />
+            <Spinner android:entries="@array/animals" android:layout_gravity="top" android:id="@id/spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0sp" android:layout_span="3" />
+            <TextView android:textSize="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="4" />
         </TableRow>
         <TableRow>
             <CheckBox android:layout_gravity="left" android:id="@id/checkBox_playlink_stop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="1" android:onClick="onCheckboxClicked" />
-            <TextView android:textSize="16.0dip" android:layout_gravity="bottom" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="4" android:text="@string/playlink_stop" />
+            <TextView android:textSize="16.0dip" android:layout_gravity="bottom" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="6" android:text="@string/playlink_stop" />
         </TableRow>
         <TableRow>
-            <TextView android:textSize="16.0dip" android:layout_gravity="bottom" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-3.0sp" android:layout_span="2" android:text="@string/ip_address" />
-            <TextView android:textSize="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="3" />
+            <TextView android:textSize="16.0dip" android:layout_gravity="bottom" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-3.0sp" android:layout_span="3" android:text="@string/ip_address" />
+            <TextView android:textSize="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="4" />
         </TableRow>
         <TableRow>
-            <EditText android:textSize="20.0dip" android:layout_gravity="top" android:id="@id/EditTextIP" android:background="@drawable/cell_shape" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0px" android:layout_span="5" android:ems="10" android:digits="0123456789.:" />
+            <EditText android:textSize="20.0dip" android:layout_gravity="top" android:id="@id/EditTextIP" android:background="@drawable/cell_shape" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0px" android:layout_span="7" android:ems="10" android:digits="0123456789.:" />
         </TableRow>
         <TableRow>
-            <Button android:layout_gravity="right" android:id="@id/buttonSave" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="5" android:text="@string/save" />
+            <Button android:layout_gravity="right" android:id="@id/buttonSave" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="7" android:text="@string/save" />
         </TableRow>
     </TableLayout>
 </RelativeLayout>

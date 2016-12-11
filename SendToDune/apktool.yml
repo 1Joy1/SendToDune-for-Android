@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: SendToDune.apk
+apkFileName: SendToDUNE.apk
 compressionType: false
 doNotCompress:
 - arsc
@@ -19,4 +19,4 @@ usesFramework:
 version: 2.2.0
 versionInfo:
   versionCode: '1'
-  versionName: '2.4'
+  versionName: '2.5'
