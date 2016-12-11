@@ -1,4 +1,4 @@
-.class Lcom/example/playlink/LongOperation;
+.class Lcom/example/sendtodune/LongOperation;
 .super Landroid/os/AsyncTask;
 .source "MainActivity.java"
 
@@ -36,7 +36,7 @@
     .line 1
     check-cast p1, [Ljava/lang/String;
 
-    invoke-virtual {p0, p1}, Lcom/example/playlink/LongOperation;->doInBackground([Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Lcom/example/sendtodune/LongOperation;->doInBackground([Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -144,7 +144,7 @@
     .line 1
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {p0, p1}, Lcom/example/playlink/LongOperation;->onPostExecute(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/example/sendtodune/LongOperation;->onPostExecute(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -173,7 +173,7 @@
     .line 1
     check-cast p1, [Ljava/lang/Void;
 
-    invoke-virtual {p0, p1}, Lcom/example/playlink/LongOperation;->onProgressUpdate([Ljava/lang/Void;)V
+    invoke-virtual {p0, p1}, Lcom/example/sendtodune/LongOperation;->onProgressUpdate([Ljava/lang/Void;)V
 
     return-void
 .end method

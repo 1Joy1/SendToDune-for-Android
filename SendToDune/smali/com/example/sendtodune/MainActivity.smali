@@ -1,4 +1,4 @@
-.class public Lcom/example/playlink/MainActivity;
+.class public Lcom/example/sendtodune/MainActivity;
 .super Landroid/app/Activity;
 .source "MainActivity.java"
 
@@ -56,12 +56,12 @@
     return-void
 .end method
 
-.method static synthetic access$0(Lcom/example/playlink/MainActivity;)Landroid/widget/EditText;
+.method static synthetic access$0(Lcom/example/sendtodune/MainActivity;)Landroid/widget/EditText;
     .locals 1
 
     .prologue
     .line 63
-    iget-object v0, p0, Lcom/example/playlink/MainActivity;->EditTextIP:Landroid/widget/EditText;
+    iget-object v0, p0, Lcom/example/sendtodune/MainActivity;->EditTextIP:Landroid/widget/EditText;
 
     return-object v0
 .end method
@@ -100,7 +100,7 @@
     .line 223
     const v2, 0x7f090001
 
-    invoke-virtual {p0, v2}, Lcom/example/playlink/MainActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v2}, Lcom/example/sendtodune/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -111,10 +111,10 @@
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
 
     .line 225
-    invoke-virtual {p0, v1}, Lcom/example/playlink/MainActivity;->onTransver(Ljava/lang/String;)V
+    invoke-virtual {p0, v1}, Lcom/example/sendtodune/MainActivity;->onTransver(Ljava/lang/String;)V
 
     .line 227
-    sget-object v2, Lcom/example/playlink/MainActivity;->auto_close:Ljava/lang/String;
+    sget-object v2, Lcom/example/sendtodune/MainActivity;->auto_close:Ljava/lang/String;
 
     const-string v3, "true"
 
@@ -125,7 +125,7 @@
     if-eqz v2, :cond_1
 
     .line 228
-    invoke-virtual {p0}, Lcom/example/playlink/MainActivity;->finish()V
+    invoke-virtual {p0}, Lcom/example/sendtodune/MainActivity;->finish()V
 
     .line 231
     .end local v0    # "EditTextUrl":Landroid/widget/EditText;
@@ -141,7 +141,7 @@
     .line 190
     const v1, 0x7f090004
 
-    invoke-virtual {p0, v1}, Lcom/example/playlink/MainActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Lcom/example/sendtodune/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -156,7 +156,7 @@
     if-eqz v1, :cond_1
 
     .line 192
-    sget-object v1, Lcom/example/playlink/MainActivity;->playlink_stop:Ljava/lang/String;
+    sget-object v1, Lcom/example/sendtodune/MainActivity;->playlink_stop:Ljava/lang/String;
 
     const-string v2, "false"
 
@@ -166,7 +166,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/example/playlink/MainActivity;->save_play()V
+    invoke-virtual {p0}, Lcom/example/sendtodune/MainActivity;->save_play()V
 
     .line 196
     :cond_0
@@ -175,7 +175,7 @@
 
     .line 194
     :cond_1
-    sget-object v1, Lcom/example/playlink/MainActivity;->playlink_stop:Ljava/lang/String;
+    sget-object v1, Lcom/example/sendtodune/MainActivity;->playlink_stop:Ljava/lang/String;
 
     const-string v2, "true"
 
@@ -185,7 +185,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/example/playlink/MainActivity;->save_play()V
+    invoke-virtual {p0}, Lcom/example/sendtodune/MainActivity;->save_play()V
 
     goto :goto_0
 .end method
@@ -201,21 +201,21 @@
     .line 70
     const/high16 v10, 0x7f030000
 
-    invoke-virtual {p0, v10}, Lcom/example/playlink/MainActivity;->setContentView(I)V
+    invoke-virtual {p0, v10}, Lcom/example/sendtodune/MainActivity;->setContentView(I)V
 
     .line 74
     const-string v10, "mysettings"
 
     const/4 v11, 0x0
 
-    invoke-virtual {p0, v10, v11}, Lcom/example/playlink/MainActivity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {p0, v10, v11}, Lcom/example/sendtodune/MainActivity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v10
 
-    iput-object v10, p0, Lcom/example/playlink/MainActivity;->mSettings:Landroid/content/SharedPreferences;
+    iput-object v10, p0, Lcom/example/sendtodune/MainActivity;->mSettings:Landroid/content/SharedPreferences;
 
     .line 76
-    iget-object v10, p0, Lcom/example/playlink/MainActivity;->mSettings:Landroid/content/SharedPreferences;
+    iget-object v10, p0, Lcom/example/sendtodune/MainActivity;->mSettings:Landroid/content/SharedPreferences;
 
     const-string v11, "ip_adress"
 
@@ -225,9 +225,9 @@
 
     move-result-object v10
 
-    sput-object v10, Lcom/example/playlink/MainActivity;->ip_adress:Ljava/lang/String;
+    sput-object v10, Lcom/example/sendtodune/MainActivity;->ip_adress:Ljava/lang/String;
 
-    sget-object v10, Lcom/example/playlink/MainActivity;->ip_adress:Ljava/lang/String;
+    sget-object v10, Lcom/example/sendtodune/MainActivity;->ip_adress:Ljava/lang/String;
 
     const-string v11, ""
 
@@ -235,11 +235,11 @@
 
     const-string v10, "192.168.0.6"
 
-    sput-object v10, Lcom/example/playlink/MainActivity;->ip_adress:Ljava/lang/String;
+    sput-object v10, Lcom/example/sendtodune/MainActivity;->ip_adress:Ljava/lang/String;
 
     .line 77
     :cond_0
-    iget-object v10, p0, Lcom/example/playlink/MainActivity;->mSettings:Landroid/content/SharedPreferences;
+    iget-object v10, p0, Lcom/example/sendtodune/MainActivity;->mSettings:Landroid/content/SharedPreferences;
 
     const-string v11, "quality"
 
@@ -249,9 +249,9 @@
 
     move-result-object v10
 
-    sput-object v10, Lcom/example/playlink/MainActivity;->quality:Ljava/lang/String;
+    sput-object v10, Lcom/example/sendtodune/MainActivity;->quality:Ljava/lang/String;
 
-    sget-object v10, Lcom/example/playlink/MainActivity;->quality:Ljava/lang/String;
+    sget-object v10, Lcom/example/sendtodune/MainActivity;->quality:Ljava/lang/String;
 
     const-string v11, ""
 
@@ -259,11 +259,11 @@
 
     const-string v10, "1"
 
-    sput-object v10, Lcom/example/playlink/MainActivity;->quality:Ljava/lang/String;
+    sput-object v10, Lcom/example/sendtodune/MainActivity;->quality:Ljava/lang/String;
 
     .line 78
     :cond_1
-    iget-object v10, p0, Lcom/example/playlink/MainActivity;->mSettings:Landroid/content/SharedPreferences;
+    iget-object v10, p0, Lcom/example/sendtodune/MainActivity;->mSettings:Landroid/content/SharedPreferences;
 
     const-string v11, "auto_close"
 
@@ -273,9 +273,9 @@
 
     move-result-object v10
 
-    sput-object v10, Lcom/example/playlink/MainActivity;->auto_close:Ljava/lang/String;
+    sput-object v10, Lcom/example/sendtodune/MainActivity;->auto_close:Ljava/lang/String;
 
-    sget-object v10, Lcom/example/playlink/MainActivity;->auto_close:Ljava/lang/String;
+    sget-object v10, Lcom/example/sendtodune/MainActivity;->auto_close:Ljava/lang/String;
 
     const-string v11, ""
 
@@ -283,11 +283,11 @@
 
     const-string v10, "true"
 
-    sput-object v10, Lcom/example/playlink/MainActivity;->auto_close:Ljava/lang/String;
+    sput-object v10, Lcom/example/sendtodune/MainActivity;->auto_close:Ljava/lang/String;
 
     .line 79
     :cond_2
-    iget-object v10, p0, Lcom/example/playlink/MainActivity;->mSettings:Landroid/content/SharedPreferences;
+    iget-object v10, p0, Lcom/example/sendtodune/MainActivity;->mSettings:Landroid/content/SharedPreferences;
 
     const-string v11, "playlink_stop"
 
@@ -297,9 +297,9 @@
 
     move-result-object v10
 
-    sput-object v10, Lcom/example/playlink/MainActivity;->playlink_stop:Ljava/lang/String;
+    sput-object v10, Lcom/example/sendtodune/MainActivity;->playlink_stop:Ljava/lang/String;
 
-    sget-object v10, Lcom/example/playlink/MainActivity;->playlink_stop:Ljava/lang/String;
+    sget-object v10, Lcom/example/sendtodune/MainActivity;->playlink_stop:Ljava/lang/String;
 
     const-string v11, ""
 
@@ -307,13 +307,13 @@
 
     const-string v10, "true"
 
-    sput-object v10, Lcom/example/playlink/MainActivity;->playlink_stop:Ljava/lang/String;
+    sput-object v10, Lcom/example/sendtodune/MainActivity;->playlink_stop:Ljava/lang/String;
 
     .line 82
     :cond_3
     const v10, 0x7f090003
 
-    invoke-virtual {p0, v10}, Lcom/example/playlink/MainActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v10}, Lcom/example/sendtodune/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v8
 
@@ -342,7 +342,7 @@
     invoke-virtual {v8, p0}, Landroid/widget/Spinner;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
     .line 95
-    invoke-virtual {p0}, Lcom/example/playlink/MainActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lcom/example/sendtodune/MainActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v6
 
@@ -392,7 +392,7 @@
     if-eqz v10, :cond_4
 
     .line 103
-    invoke-virtual {p0, v6}, Lcom/example/playlink/MainActivity;->handleSendText(Landroid/content/Intent;)V
+    invoke-virtual {p0, v6}, Lcom/example/sendtodune/MainActivity;->handleSendText(Landroid/content/Intent;)V
 
     .line 110
     :cond_4
@@ -416,7 +416,7 @@
     if-eqz v10, :cond_5
 
     .line 112
-    invoke-virtual {p0, v6}, Lcom/example/playlink/MainActivity;->handleSendText(Landroid/content/Intent;)V
+    invoke-virtual {p0, v6}, Lcom/example/sendtodune/MainActivity;->handleSendText(Landroid/content/Intent;)V
 
     .line 118
     :cond_5
@@ -440,24 +440,24 @@
     if-eqz v10, :cond_6
 
     .line 120
-    invoke-virtual {p0, v6}, Lcom/example/playlink/MainActivity;->handleSendText(Landroid/content/Intent;)V
+    invoke-virtual {p0, v6}, Lcom/example/sendtodune/MainActivity;->handleSendText(Landroid/content/Intent;)V
 
     .line 127
     :cond_6
     const v10, 0x7f090005
 
-    invoke-virtual {p0, v10}, Lcom/example/playlink/MainActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v10}, Lcom/example/sendtodune/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
     check-cast v10, Landroid/widget/EditText;
 
-    iput-object v10, p0, Lcom/example/playlink/MainActivity;->EditTextIP:Landroid/widget/EditText;
+    iput-object v10, p0, Lcom/example/sendtodune/MainActivity;->EditTextIP:Landroid/widget/EditText;
 
     .line 128
     const v10, 0x7f090005
 
-    invoke-virtual {p0, v10}, Lcom/example/playlink/MainActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v10}, Lcom/example/sendtodune/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
@@ -467,7 +467,7 @@
 
     invoke-direct {v11}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v12, Lcom/example/playlink/MainActivity;->ip_adress:Ljava/lang/String;
+    sget-object v12, Lcom/example/sendtodune/MainActivity;->ip_adress:Ljava/lang/String;
 
     invoke-virtual {v11, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -482,16 +482,16 @@
     .line 130
     const v10, 0x7f090004
 
-    invoke-virtual {p0, v10}, Lcom/example/playlink/MainActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v10}, Lcom/example/sendtodune/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
     check-cast v10, Landroid/widget/CheckBox;
 
-    iput-object v10, p0, Lcom/example/playlink/MainActivity;->checkBox_playlink_stop:Landroid/widget/CheckBox;
+    iput-object v10, p0, Lcom/example/sendtodune/MainActivity;->checkBox_playlink_stop:Landroid/widget/CheckBox;
 
     .line 132
-    sget-object v10, Lcom/example/playlink/MainActivity;->playlink_stop:Ljava/lang/String;
+    sget-object v10, Lcom/example/sendtodune/MainActivity;->playlink_stop:Ljava/lang/String;
 
     const-string v11, "true"
 
@@ -504,7 +504,7 @@
     .line 133
     const v10, 0x7f090004
 
-    invoke-virtual {p0, v10}, Lcom/example/playlink/MainActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v10}, Lcom/example/sendtodune/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
@@ -516,7 +516,7 @@
 
     .line 138
     :goto_0
-    sget-object v10, Lcom/example/playlink/MainActivity;->quality:Ljava/lang/String;
+    sget-object v10, Lcom/example/sendtodune/MainActivity;->quality:Ljava/lang/String;
 
     invoke-virtual {v10}, Ljava/lang/String;->hashCode()I
 
@@ -529,7 +529,7 @@
     :goto_1
     const v10, 0x7f090001
 
-    invoke-virtual {p0, v10}, Lcom/example/playlink/MainActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v10}, Lcom/example/sendtodune/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -539,7 +539,7 @@
     .local v0, "EditTextUrl":Landroid/widget/EditText;
     const v10, 0x7f090002
 
-    invoke-virtual {p0, v10}, Lcom/example/playlink/MainActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v10}, Lcom/example/sendtodune/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v3
 
@@ -547,25 +547,25 @@
 
     .line 149
     .local v3, "button1":Landroid/widget/Button;
-    new-instance v10, Lcom/example/playlink/MainActivity$1;
+    new-instance v10, Lcom/example/sendtodune/MainActivity$1;
 
-    invoke-direct {v10, p0, v0}, Lcom/example/playlink/MainActivity$1;-><init>(Lcom/example/playlink/MainActivity;Landroid/widget/EditText;)V
+    invoke-direct {v10, p0, v0}, Lcom/example/sendtodune/MainActivity$1;-><init>(Lcom/example/sendtodune/MainActivity;Landroid/widget/EditText;)V
 
     invoke-virtual {v3, v10}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 157
-    iget-object v10, p0, Lcom/example/playlink/MainActivity;->EditTextIP:Landroid/widget/EditText;
+    iget-object v10, p0, Lcom/example/sendtodune/MainActivity;->EditTextIP:Landroid/widget/EditText;
 
-    new-instance v11, Lcom/example/playlink/MainActivity$2;
+    new-instance v11, Lcom/example/sendtodune/MainActivity$2;
 
-    invoke-direct {v11, p0}, Lcom/example/playlink/MainActivity$2;-><init>(Lcom/example/playlink/MainActivity;)V
+    invoke-direct {v11, p0}, Lcom/example/sendtodune/MainActivity$2;-><init>(Lcom/example/sendtodune/MainActivity;)V
 
     invoke-virtual {v10, v11}, Landroid/widget/EditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
 
     .line 169
     const v10, 0x7f090006
 
-    invoke-virtual {p0, v10}, Lcom/example/playlink/MainActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v10}, Lcom/example/sendtodune/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v4
 
@@ -573,9 +573,9 @@
 
     .line 170
     .local v4, "buttonSave":Landroid/widget/Button;
-    new-instance v10, Lcom/example/playlink/MainActivity$3;
+    new-instance v10, Lcom/example/sendtodune/MainActivity$3;
 
-    invoke-direct {v10, p0}, Lcom/example/playlink/MainActivity$3;-><init>(Lcom/example/playlink/MainActivity;)V
+    invoke-direct {v10, p0}, Lcom/example/sendtodune/MainActivity$3;-><init>(Lcom/example/sendtodune/MainActivity;)V
 
     invoke-virtual {v4, v10}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -589,7 +589,7 @@
     :cond_8
     const v10, 0x7f090004
 
-    invoke-virtual {p0, v10}, Lcom/example/playlink/MainActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v10}, Lcom/example/sendtodune/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v10
 
@@ -618,7 +618,7 @@
 
     const-string v10, "0"
 
-    sput-object v10, Lcom/example/playlink/MainActivity;->spinner_Selection:Ljava/lang/String;
+    sput-object v10, Lcom/example/sendtodune/MainActivity;->spinner_Selection:Ljava/lang/String;
 
     goto :goto_1
 
@@ -639,7 +639,7 @@
 
     const-string v10, "1"
 
-    sput-object v10, Lcom/example/playlink/MainActivity;->spinner_Selection:Ljava/lang/String;
+    sput-object v10, Lcom/example/sendtodune/MainActivity;->spinner_Selection:Ljava/lang/String;
 
     goto :goto_1
 
@@ -660,7 +660,7 @@
 
     const-string v10, "2"
 
-    sput-object v10, Lcom/example/playlink/MainActivity;->spinner_Selection:Ljava/lang/String;
+    sput-object v10, Lcom/example/sendtodune/MainActivity;->spinner_Selection:Ljava/lang/String;
 
     goto :goto_1
 
@@ -703,12 +703,12 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/example/playlink/MainActivity;->spinner_Selection:Ljava/lang/String;
+    sput-object v0, Lcom/example/sendtodune/MainActivity;->spinner_Selection:Ljava/lang/String;
 
     .line 208
-    sget-object v0, Lcom/example/playlink/MainActivity;->quality:Ljava/lang/String;
+    sget-object v0, Lcom/example/sendtodune/MainActivity;->quality:Ljava/lang/String;
 
-    sget-object v1, Lcom/example/playlink/MainActivity;->spinner_Selection:Ljava/lang/String;
+    sget-object v1, Lcom/example/sendtodune/MainActivity;->spinner_Selection:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -716,7 +716,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/example/playlink/MainActivity;->save_play()V
+    invoke-virtual {p0}, Lcom/example/sendtodune/MainActivity;->save_play()V
 
     .line 209
     :cond_0
@@ -757,7 +757,7 @@
 
     .line 293
     .local v0, "set_playlink_stop":Ljava/lang/String;
-    sget-object v3, Lcom/example/playlink/MainActivity;->quality:Ljava/lang/String;
+    sget-object v3, Lcom/example/sendtodune/MainActivity;->quality:Ljava/lang/String;
 
     invoke-virtual {v3}, Ljava/lang/String;->hashCode()I
 
@@ -768,7 +768,7 @@
     .line 299
     :cond_0
     :goto_0
-    sget-object v3, Lcom/example/playlink/MainActivity;->playlink_stop:Ljava/lang/String;
+    sget-object v3, Lcom/example/sendtodune/MainActivity;->playlink_stop:Ljava/lang/String;
 
     const-string v4, "false"
 
@@ -789,7 +789,7 @@
 
     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    sget-object v4, Lcom/example/playlink/MainActivity;->ip_adress:Ljava/lang/String;
+    sget-object v4, Lcom/example/sendtodune/MainActivity;->ip_adress:Ljava/lang/String;
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -821,7 +821,25 @@
 
     move-result-object v3
 
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const-string v4, "http"
+
+    invoke-virtual {p1, v4}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+
+    move-result v4
+
+    invoke-virtual {p1, v4}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    move-result-object v4
+
+    const-string v2, "&"
+
+    const-string v5, "%26"
+
+    invoke-virtual {v4, v2, v5}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -844,9 +862,9 @@
     move-result-object v2
 
     .line 312
-    new-instance v3, Lcom/example/playlink/MainActivity$4;
+    new-instance v3, Lcom/example/sendtodune/MainActivity$4;
 
-    invoke-direct {v3, p0}, Lcom/example/playlink/MainActivity$4;-><init>(Lcom/example/playlink/MainActivity;)V
+    invoke-direct {v3, p0}, Lcom/example/sendtodune/MainActivity$4;-><init>(Lcom/example/sendtodune/MainActivity;)V
 
     const/4 v4, 0x1
 
@@ -857,7 +875,7 @@
     .line 329
     aput-object v2, v4, v5
 
-    invoke-virtual {v3, v4}, Lcom/example/playlink/MainActivity$4;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v3, v4}, Lcom/example/sendtodune/MainActivity$4;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     .line 331
     return-void
@@ -909,7 +927,7 @@
 
     .line 301
     :cond_2
-    sget-object v3, Lcom/example/playlink/MainActivity;->playlink_stop:Ljava/lang/String;
+    sget-object v3, Lcom/example/sendtodune/MainActivity;->playlink_stop:Ljava/lang/String;
 
     const-string v4, "true"
 
@@ -937,7 +955,7 @@
 
     .prologue
     .line 260
-    iget-object v1, p0, Lcom/example/playlink/MainActivity;->EditTextIP:Landroid/widget/EditText;
+    iget-object v1, p0, Lcom/example/sendtodune/MainActivity;->EditTextIP:Landroid/widget/EditText;
 
     invoke-virtual {v1}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
@@ -947,26 +965,26 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/example/playlink/MainActivity;->ip_adress:Ljava/lang/String;
+    sput-object v1, Lcom/example/sendtodune/MainActivity;->ip_adress:Ljava/lang/String;
 
     .line 261
-    sget-object v1, Lcom/example/playlink/MainActivity;->spinner_Selection:Ljava/lang/String;
+    sget-object v1, Lcom/example/sendtodune/MainActivity;->spinner_Selection:Ljava/lang/String;
 
-    sput-object v1, Lcom/example/playlink/MainActivity;->quality:Ljava/lang/String;
+    sput-object v1, Lcom/example/sendtodune/MainActivity;->quality:Ljava/lang/String;
 
     .line 263
     const v1, 0x7f090004
 
-    invoke-virtual {p0, v1}, Lcom/example/playlink/MainActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Lcom/example/sendtodune/MainActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
     check-cast v1, Landroid/widget/CheckBox;
 
-    iput-object v1, p0, Lcom/example/playlink/MainActivity;->checkBox_playlink_stop:Landroid/widget/CheckBox;
+    iput-object v1, p0, Lcom/example/sendtodune/MainActivity;->checkBox_playlink_stop:Landroid/widget/CheckBox;
 
     .line 265
-    iget-object v1, p0, Lcom/example/playlink/MainActivity;->checkBox_playlink_stop:Landroid/widget/CheckBox;
+    iget-object v1, p0, Lcom/example/sendtodune/MainActivity;->checkBox_playlink_stop:Landroid/widget/CheckBox;
 
     invoke-virtual {v1}, Landroid/widget/CheckBox;->isChecked()Z
 
@@ -977,7 +995,7 @@
     .line 266
     const-string v1, "true"
 
-    sput-object v1, Lcom/example/playlink/MainActivity;->playlink_stop:Ljava/lang/String;
+    sput-object v1, Lcom/example/sendtodune/MainActivity;->playlink_stop:Ljava/lang/String;
 
     .line 272
     :goto_0
@@ -985,14 +1003,14 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {p0, v1, v2}, Lcom/example/playlink/MainActivity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {p0, v1, v2}, Lcom/example/sendtodune/MainActivity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     move-result-object v1
 
-    iput-object v1, p0, Lcom/example/playlink/MainActivity;->mSettings:Landroid/content/SharedPreferences;
+    iput-object v1, p0, Lcom/example/sendtodune/MainActivity;->mSettings:Landroid/content/SharedPreferences;
 
     .line 274
-    iget-object v1, p0, Lcom/example/playlink/MainActivity;->mSettings:Landroid/content/SharedPreferences;
+    iget-object v1, p0, Lcom/example/sendtodune/MainActivity;->mSettings:Landroid/content/SharedPreferences;
 
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
@@ -1002,28 +1020,28 @@
     .local v0, "prefEditor":Landroid/content/SharedPreferences$Editor;
     const-string v1, "ip_adress"
 
-    sget-object v2, Lcom/example/playlink/MainActivity;->ip_adress:Ljava/lang/String;
+    sget-object v2, Lcom/example/sendtodune/MainActivity;->ip_adress:Ljava/lang/String;
 
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 277
     const-string v1, "quality"
 
-    sget-object v2, Lcom/example/playlink/MainActivity;->quality:Ljava/lang/String;
+    sget-object v2, Lcom/example/sendtodune/MainActivity;->quality:Ljava/lang/String;
 
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 278
     const-string v1, "auto_close"
 
-    sget-object v2, Lcom/example/playlink/MainActivity;->auto_close:Ljava/lang/String;
+    sget-object v2, Lcom/example/sendtodune/MainActivity;->auto_close:Ljava/lang/String;
 
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 279
     const-string v1, "playlink_stop"
 
-    sget-object v2, Lcom/example/playlink/MainActivity;->playlink_stop:Ljava/lang/String;
+    sget-object v2, Lcom/example/sendtodune/MainActivity;->playlink_stop:Ljava/lang/String;
 
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
@@ -1038,7 +1056,7 @@
     :cond_0
     const-string v1, "false"
 
-    sput-object v1, Lcom/example/playlink/MainActivity;->playlink_stop:Ljava/lang/String;
+    sput-object v1, Lcom/example/sendtodune/MainActivity;->playlink_stop:Ljava/lang/String;
 
     goto :goto_0
 .end method

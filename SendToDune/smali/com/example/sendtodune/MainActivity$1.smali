@@ -1,4 +1,4 @@
-.class Lcom/example/playlink/MainActivity$1;
+.class Lcom/example/sendtodune/MainActivity$1;
 .super Ljava/lang/Object;
 .source "MainActivity.java"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/playlink/MainActivity;->onCreate(Landroid/os/Bundle;)V
+    value = Lcom/example/sendtodune/MainActivity;->onCreate(Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic this$0:Lcom/example/playlink/MainActivity;
+.field final synthetic this$0:Lcom/example/sendtodune/MainActivity;
 
 .field private final synthetic val$EditTextUrl:Landroid/widget/EditText;
 
 
 # direct methods
-.method constructor <init>(Lcom/example/playlink/MainActivity;Landroid/widget/EditText;)V
+.method constructor <init>(Lcom/example/sendtodune/MainActivity;Landroid/widget/EditText;)V
     .locals 0
 
     .prologue
     .line 1
-    iput-object p1, p0, Lcom/example/playlink/MainActivity$1;->this$0:Lcom/example/playlink/MainActivity;
+    iput-object p1, p0, Lcom/example/sendtodune/MainActivity$1;->this$0:Lcom/example/sendtodune/MainActivity;
 
-    iput-object p2, p0, Lcom/example/playlink/MainActivity$1;->val$EditTextUrl:Landroid/widget/EditText;
+    iput-object p2, p0, Lcom/example/sendtodune/MainActivity$1;->val$EditTextUrl:Landroid/widget/EditText;
 
     .line 149
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,7 +47,7 @@
 
     .prologue
     .line 152
-    iget-object v1, p0, Lcom/example/playlink/MainActivity$1;->val$EditTextUrl:Landroid/widget/EditText;
+    iget-object v1, p0, Lcom/example/sendtodune/MainActivity$1;->val$EditTextUrl:Landroid/widget/EditText;
 
     invoke-virtual {v1}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
@@ -59,9 +59,9 @@
 
     .line 153
     .local v0, "strCatName":Ljava/lang/String;
-    iget-object v1, p0, Lcom/example/playlink/MainActivity$1;->this$0:Lcom/example/playlink/MainActivity;
+    iget-object v1, p0, Lcom/example/sendtodune/MainActivity$1;->this$0:Lcom/example/sendtodune/MainActivity;
 
-    invoke-virtual {v1, v0}, Lcom/example/playlink/MainActivity;->onTransver(Ljava/lang/String;)V
+    invoke-virtual {v1, v0}, Lcom/example/sendtodune/MainActivity;->onTransver(Ljava/lang/String;)V
 
     .line 154
     return-void

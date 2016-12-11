@@ -1,4 +1,4 @@
-.class public final Lcom/example/playlink/BuildConfig;
+.class public final Lcom/example/sendtodune/BuildConfig;
 .super Ljava/lang/Object;
 .source "BuildConfig.java"
 

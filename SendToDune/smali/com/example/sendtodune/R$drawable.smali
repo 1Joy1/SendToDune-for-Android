@@ -1,11 +1,11 @@
-.class public final Lcom/example/playlink/R$drawable;
+.class public final Lcom/example/sendtodune/R$drawable;
 .super Ljava/lang/Object;
 .source "R.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/example/playlink/R;
+    value = Lcom/example/sendtodune/R;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

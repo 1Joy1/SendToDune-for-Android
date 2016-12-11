@@ -1,4 +1,4 @@
-.class Lcom/example/playlink/MainActivity$2;
+.class Lcom/example/sendtodune/MainActivity$2;
 .super Ljava/lang/Object;
 .source "MainActivity.java"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/playlink/MainActivity;->onCreate(Landroid/os/Bundle;)V
+    value = Lcom/example/sendtodune/MainActivity;->onCreate(Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic this$0:Lcom/example/playlink/MainActivity;
+.field final synthetic this$0:Lcom/example/sendtodune/MainActivity;
 
 
 # direct methods
-.method constructor <init>(Lcom/example/playlink/MainActivity;)V
+.method constructor <init>(Lcom/example/sendtodune/MainActivity;)V
     .locals 0
 
     .prologue
     .line 1
-    iput-object p1, p0, Lcom/example/playlink/MainActivity$2;->this$0:Lcom/example/playlink/MainActivity;
+    iput-object p1, p0, Lcom/example/sendtodune/MainActivity$2;->this$0:Lcom/example/sendtodune/MainActivity;
 
     .line 157
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -45,10 +45,10 @@
 
     .prologue
     .line 162
-    iget-object v1, p0, Lcom/example/playlink/MainActivity$2;->this$0:Lcom/example/playlink/MainActivity;
+    iget-object v1, p0, Lcom/example/sendtodune/MainActivity$2;->this$0:Lcom/example/sendtodune/MainActivity;
 
-    # getter for: Lcom/example/playlink/MainActivity;->EditTextIP:Landroid/widget/EditText;
-    invoke-static {v1}, Lcom/example/playlink/MainActivity;->access$0(Lcom/example/playlink/MainActivity;)Landroid/widget/EditText;
+    # getter for: Lcom/example/sendtodune/MainActivity;->EditTextIP:Landroid/widget/EditText;
+    invoke-static {v1}, Lcom/example/sendtodune/MainActivity;->access$0(Lcom/example/sendtodune/MainActivity;)Landroid/widget/EditText;
 
     move-result-object v1
 
@@ -62,7 +62,7 @@
 
     .line 164
     .local v0, "ed_ip":Ljava/lang/String;
-    sget-object v1, Lcom/example/playlink/MainActivity;->ip_adress:Ljava/lang/String;
+    sget-object v1, Lcom/example/sendtodune/MainActivity;->ip_adress:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -70,9 +70,9 @@
 
     if-nez v1, :cond_0
 
-    iget-object v1, p0, Lcom/example/playlink/MainActivity$2;->this$0:Lcom/example/playlink/MainActivity;
+    iget-object v1, p0, Lcom/example/sendtodune/MainActivity$2;->this$0:Lcom/example/sendtodune/MainActivity;
 
-    invoke-virtual {v1}, Lcom/example/playlink/MainActivity;->save_play()V
+    invoke-virtual {v1}, Lcom/example/sendtodune/MainActivity;->save_play()V
 
     .line 166
     :cond_0

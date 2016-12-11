@@ -1,11 +1,11 @@
-.class Lcom/example/playlink/MainActivity$4;
-.super Lcom/example/playlink/LongOperation;
+.class Lcom/example/sendtodune/MainActivity$4;
+.super Lcom/example/sendtodune/LongOperation;
 .source "MainActivity.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/playlink/MainActivity;->onTransver(Ljava/lang/String;)V
+    value = Lcom/example/sendtodune/MainActivity;->onTransver(Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,19 +15,19 @@
 
 
 # instance fields
-.field final synthetic this$0:Lcom/example/playlink/MainActivity;
+.field final synthetic this$0:Lcom/example/sendtodune/MainActivity;
 
 
 # direct methods
-.method constructor <init>(Lcom/example/playlink/MainActivity;)V
+.method constructor <init>(Lcom/example/sendtodune/MainActivity;)V
     .locals 0
 
     .prologue
     .line 1
-    iput-object p1, p0, Lcom/example/playlink/MainActivity$4;->this$0:Lcom/example/playlink/MainActivity;
+    iput-object p1, p0, Lcom/example/sendtodune/MainActivity$4;->this$0:Lcom/example/sendtodune/MainActivity;
 
     .line 312
-    invoke-direct {p0}, Lcom/example/playlink/LongOperation;-><init>()V
+    invoke-direct {p0}, Lcom/example/sendtodune/LongOperation;-><init>()V
 
     return-void
 .end method
@@ -45,9 +45,9 @@
     if-ne p1, v4, :cond_0
 
     .line 317
-    iget-object v4, p0, Lcom/example/playlink/MainActivity$4;->this$0:Lcom/example/playlink/MainActivity;
+    iget-object v4, p0, Lcom/example/sendtodune/MainActivity$4;->this$0:Lcom/example/sendtodune/MainActivity;
 
-    invoke-virtual {v4}, Lcom/example/playlink/MainActivity;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v4}, Lcom/example/sendtodune/MainActivity;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 

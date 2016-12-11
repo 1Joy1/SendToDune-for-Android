@@ -1,23 +1,21 @@
-.class public final Lcom/example/playlink/R$style;
+.class public final Lcom/example/sendtodune/R$array;
 .super Ljava/lang/Object;
 .source "R.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/example/playlink/R;
+    value = Lcom/example/sendtodune/R;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x19
-    name = "style"
+    name = "array"
 .end annotation
 
 
 # static fields
-.field public static final AppBaseTheme:I = 0x7f070000
-
-.field public static final AppTheme:I = 0x7f070001
+.field public static final animals:I = 0x7f060000
 
 
 # direct methods
@@ -25,7 +23,7 @@
     .locals 0
 
     .prologue
-    .line 59
+    .line 11
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

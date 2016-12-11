@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: Playlink2.apk
+apkFileName: SendToDune.apk
 compressionType: false
 doNotCompress:
 - arsc
@@ -19,4 +19,4 @@ usesFramework:
 version: 2.2.0
 versionInfo:
   versionCode: '1'
-  versionName: '2.3'
+  versionName: '2.4'

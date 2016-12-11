@@ -1,21 +1,23 @@
-.class public final Lcom/example/playlink/R$menu;
+.class public final Lcom/example/sendtodune/R$dimen;
 .super Ljava/lang/Object;
 .source "R.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/example/playlink/R;
+    value = Lcom/example/sendtodune/R;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x19
-    name = "menu"
+    name = "dimen"
 .end annotation
 
 
 # static fields
-.field public static final main:I = 0x7f080000
+.field public static final activity_horizontal_margin:I = 0x7f040000
+
+.field public static final activity_vertical_margin:I = 0x7f040001
 
 
 # direct methods
@@ -23,7 +25,7 @@
     .locals 0
 
     .prologue
-    .line 44
+    .line 16
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
